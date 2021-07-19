@@ -1,0 +1,17 @@
+__pycache__/*,
+
+3rd/*.obj,
+
+bin/*.ilk,
+bin/*.exe,
+bin/*.pdb,
+
+demos/*.obj,
+
+lib/*.lib,
+
+src/*.obj,
+
+tool/*.obj
+
+
