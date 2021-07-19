@@ -19,6 +19,6 @@ LINK_ALL=''
 if OS_NAME == 'Windows':
   if TOOLS_NAME == '' :
     DEPS_LIBS= STATIC_LIBS + ['']
-    LINKFLAGS += ' /DEF:"" '
+    # LINKFLAGS += ' /DEF:"" '
 
 env.Library(os.path.join(LIB_DIR, 'test_src'), BASE_SOURCES, LIBS=[])

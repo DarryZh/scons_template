@@ -26,7 +26,7 @@ DefaultEnvironment(TOOLS=APP_TOOLS,
 
 SConscriptFiles = [
     'src/SConscript',
-    'demos/SConscript'
+    'demos/SConscript',
 ] + project.OS_PROJECTS
 
 os.environ['ROOT'] = project.ROOT
